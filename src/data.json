@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Browser type",
+    "comparators": ["equal", "not_equal"],
+    "type": "select",
+    "type_text": "",
+    "placeholder": "",
+    "data": {
+      "Chrome": "Chrome",
+      "Internet Explorer": "Internet Explorer",
+      "Microsoft Edge": "Microsoft Edge",
+      "Safari": "Safari",
+      "Firefox": "Firefox",
+      "Opera": "Opera"
+    }
+  },
+  {
+    "name": "Visitor's city",
+    "comparators": [
+      "equal",
+      "not_equal",
+      "contain",
+      "not_contain",
+      "starts_with",
+      "not_starts_with"
+    ],
+    "type": "text",
+    "type_text": "",
+    "placeholder": "",
+    "data": []
+  }
+]
